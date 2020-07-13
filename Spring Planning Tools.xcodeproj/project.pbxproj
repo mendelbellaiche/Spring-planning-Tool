@@ -9,25 +9,43 @@
 /* Begin PBXBuildFile section */
 		9048742D24A18FC200022533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048742C24A18FC200022533 /* AppDelegate.swift */; };
 		9048742F24A18FC200022533 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048742E24A18FC200022533 /* SceneDelegate.swift */; };
-		9048743124A18FC200022533 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048743024A18FC200022533 /* FirstViewController.swift */; };
-		9048743324A18FC200022533 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048743224A18FC200022533 /* SecondViewController.swift */; };
 		9048743624A18FC200022533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9048743424A18FC200022533 /* Main.storyboard */; };
 		9048743924A18FC200022533 /* Spring_Planning_Tools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9048743724A18FC200022533 /* Spring_Planning_Tools.xcdatamodeld */; };
 		9048743B24A18FC400022533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9048743A24A18FC400022533 /* Assets.xcassets */; };
 		9048743E24A18FC400022533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9048743C24A18FC400022533 /* LaunchScreen.storyboard */; };
+		9048744724A1F20C00022533 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048744624A1F20C00022533 /* Protocols.swift */; };
+		9048744924A1F21600022533 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048744824A1F21600022533 /* Constants.swift */; };
+		9048744C24A1F22B00022533 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048744B24A1F22B00022533 /* Enums.swift */; };
+		9048745024A1F2DF00022533 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048744F24A1F2DF00022533 /* SettingsTableViewController.swift */; };
+		9048745324A1F53000022533 /* PlanningMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048745224A1F53000022533 /* PlanningMasterTableViewController.swift */; };
+		9048745524A1F54000022533 /* PlanningDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048745424A1F54000022533 /* PlanningDetailViewController.swift */; };
+		9048745724A1F54E00022533 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048745624A1F54E00022533 /* CoreDataHelper.swift */; };
+		9048745924A2031800022533 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9048745824A2031800022533 /* Extensions.swift */; };
+		906869C524A3422E00AF775A /* AuthorTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906869C424A3422E00AF775A /* AuthorTaskViewController.swift */; };
+		906B70A524A2354C00062C46 /* ListTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B70A424A2354C00062C46 /* ListTaskTableViewCell.swift */; };
+		906B70A724A266A500062C46 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B70A624A266A500062C46 /* TaskDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9048742924A18FC200022533 /* Spring Planning Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spring Planning Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9048742C24A18FC200022533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9048742E24A18FC200022533 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9048743024A18FC200022533 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9048743224A18FC200022533 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9048743524A18FC200022533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9048743824A18FC200022533 /* Spring_Planning_Tools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spring_Planning_Tools.xcdatamodel; sourceTree = "<group>"; };
 		9048743A24A18FC400022533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9048743D24A18FC400022533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9048743F24A18FC400022533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9048744624A1F20C00022533 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		9048744824A1F21600022533 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9048744B24A1F22B00022533 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		9048744F24A1F2DF00022533 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		9048745224A1F53000022533 /* PlanningMasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningMasterTableViewController.swift; sourceTree = "<group>"; };
+		9048745424A1F54000022533 /* PlanningDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningDetailViewController.swift; sourceTree = "<group>"; };
+		9048745624A1F54E00022533 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		9048745824A2031800022533 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		906869C424A3422E00AF775A /* AuthorTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorTaskViewController.swift; sourceTree = "<group>"; };
+		906B70A424A2354C00062C46 /* ListTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskTableViewCell.swift; sourceTree = "<group>"; };
+		906B70A624A266A500062C46 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +78,11 @@
 		9048742B24A18FC200022533 /* Spring Planning Tools */ = {
 			isa = PBXGroup;
 			children = (
+				906B70A124A2351A00062C46 /* view */,
+				9048744D24A1F2B600022533 /* controllers */,
+				9048744524A1F1F200022533 /* services */,
 				9048742C24A18FC200022533 /* AppDelegate.swift */,
 				9048742E24A18FC200022533 /* SceneDelegate.swift */,
-				9048743024A18FC200022533 /* FirstViewController.swift */,
-				9048743224A18FC200022533 /* SecondViewController.swift */,
 				9048743424A18FC200022533 /* Main.storyboard */,
 				9048743A24A18FC400022533 /* Assets.xcassets */,
 				9048743C24A18FC400022533 /* LaunchScreen.storyboard */,
@@ -71,6 +90,78 @@
 				9048743724A18FC200022533 /* Spring_Planning_Tools.xcdatamodeld */,
 			);
 			path = "Spring Planning Tools";
+			sourceTree = "<group>";
+		};
+		9048744524A1F1F200022533 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				9048744B24A1F22B00022533 /* Enums.swift */,
+				9048744824A1F21600022533 /* Constants.swift */,
+				9048744624A1F20C00022533 /* Protocols.swift */,
+				9048745624A1F54E00022533 /* CoreDataHelper.swift */,
+				9048745824A2031800022533 /* Extensions.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		9048744D24A1F2B600022533 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9048745124A1F51D00022533 /* plannings */,
+				9048744E24A1F2C900022533 /* settings */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9048744E24A1F2C900022533 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				9048744F24A1F2DF00022533 /* SettingsTableViewController.swift */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		9048745124A1F51D00022533 /* plannings */ = {
+			isa = PBXGroup;
+			children = (
+				906869C324A3421800AF775A /* task */,
+				9048745224A1F53000022533 /* PlanningMasterTableViewController.swift */,
+				9048745424A1F54000022533 /* PlanningDetailViewController.swift */,
+			);
+			path = plannings;
+			sourceTree = "<group>";
+		};
+		906869C324A3421800AF775A /* task */ = {
+			isa = PBXGroup;
+			children = (
+				906B70A624A266A500062C46 /* TaskDetailViewController.swift */,
+				906869C424A3422E00AF775A /* AuthorTaskViewController.swift */,
+			);
+			path = task;
+			sourceTree = "<group>";
+		};
+		906B70A124A2351A00062C46 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				906B70A224A2352C00062C46 /* plannings */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		906B70A224A2352C00062C46 /* plannings */ = {
+			isa = PBXGroup;
+			children = (
+				906B70A324A2353300062C46 /* tasks */,
+			);
+			path = plannings;
+			sourceTree = "<group>";
+		};
+		906B70A324A2353300062C46 /* tasks */ = {
+			isa = PBXGroup;
+			children = (
+				906B70A424A2354C00062C46 /* ListTaskTableViewCell.swift */,
+			);
+			path = tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +235,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906869C524A3422E00AF775A /* AuthorTaskViewController.swift in Sources */,
+				9048745724A1F54E00022533 /* CoreDataHelper.swift in Sources */,
 				9048743924A18FC200022533 /* Spring_Planning_Tools.xcdatamodeld in Sources */,
-				9048743324A18FC200022533 /* SecondViewController.swift in Sources */,
-				9048743124A18FC200022533 /* FirstViewController.swift in Sources */,
+				9048744724A1F20C00022533 /* Protocols.swift in Sources */,
+				9048744924A1F21600022533 /* Constants.swift in Sources */,
 				9048742D24A18FC200022533 /* AppDelegate.swift in Sources */,
+				9048745524A1F54000022533 /* PlanningDetailViewController.swift in Sources */,
+				9048745324A1F53000022533 /* PlanningMasterTableViewController.swift in Sources */,
+				9048744C24A1F22B00022533 /* Enums.swift in Sources */,
+				906B70A524A2354C00062C46 /* ListTaskTableViewCell.swift in Sources */,
+				906B70A724A266A500062C46 /* TaskDetailViewController.swift in Sources */,
 				9048742F24A18FC200022533 /* SceneDelegate.swift in Sources */,
+				9048745924A2031800022533 /* Extensions.swift in Sources */,
+				9048745024A1F2DF00022533 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellaichemendel.Spring-Planning-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -320,7 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bellaichemendel.Spring-Planning-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

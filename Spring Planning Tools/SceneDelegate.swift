@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,6 +19,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        guard
+            let tabBarController = window?.rootViewController as? UITabBarController,
+            let splitViewController = tabBarController.viewControllers?.first as? UISplitViewController,
+            let leftNavController = splitViewController.viewControllers.first as? UINavigationController,
+            let masterViewController = leftNavController.viewControllers.first as? PlanningMasterTableViewController,
+            let detailNavigationController = splitViewController.viewControllers.last as? UINavigationController,
+            let detailViewController = detailNavigationController.viewControllers.first as? PlanningDetailViewController,
+            let _ = tabBarController.viewControllers?.last as? SettingsTableViewController
+            //let settingsController = tabBarController.viewControllers?.last as? SettingsTableViewController
+        else { fatalError() }
+        
+        masterViewController.delegate = detailViewController
+        masterViewController.plannings = CoreDataHelper.shared.getAllPlannings()
+        masterViewController.delegate?.planningSelected(masterViewController.plannings!.first)
+        
+        checkData()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,6 +69,28 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
-
+    func checkData() {
+        
+        /*let plannings = CoreDataHelper.shared.getAllPlannings()
+        
+        if plannings != nil {
+            print("Il y a \(plannings!.count) Planning(s)")
+            for planning in plannings! {
+                print(planning.title!)
+            }
+        }
+        
+        
+        let tasks = CoreDataHelper.shared.getAllTasks()
+        
+        if tasks != nil {
+            print("Il y a \(tasks!.count) tache(s)")
+            for task in tasks! {
+                print(task.title!)
+            }
+        }*/
+        
+    }
+    
 }
 
